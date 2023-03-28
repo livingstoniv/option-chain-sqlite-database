@@ -70,7 +70,8 @@ while running == True:
         #Export DataFrame to SQLite Database
         df_main_option_chain.to_sql('SPY_Option_Chain', conn, if_exists= 'append', \
         index=False)
-
-        time.sleep(10)
+        
+        #Runs code every 5 minutes
+        time.sleep(300)
 
 
