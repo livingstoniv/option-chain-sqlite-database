@@ -2,7 +2,6 @@ from yahoo_fin import options as op
 import pandas as pd
 from datetime import datetime, date
 import numpy as np
-from xlsxwriter.utility import xl_rowcol_to_cell
 import sqlite3 
 import itertools
 import time
